@@ -8,8 +8,14 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -21,14 +27,4 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
